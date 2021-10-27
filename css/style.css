@@ -48,6 +48,9 @@ body {
 	padding: 0 15px;
 	box-sizing: content-box;
 }
+.ibg {
+
+}
 
 ._ibg img {
 	position: absolute;
@@ -135,8 +138,8 @@ body {
 		z-index: 2;
 	}
 	.page__adventages{
-
 	}
+	.page__practice 
 	/*----------------header block--------------*/
 	.header__block{
 		text-align: center;
@@ -337,25 +340,26 @@ body {
 	/*-------------------adventages------------*/
 
 	.adventages{ 
-	padding: 80px 0px;
-	 }
-	 @media (max-width: 992px) {
-	 	.adventages: {padding: 50px 0px;}
-	 }
-	 @media (max-width:767px ) {
-	 	.adventages {
-	 		padding: 30px 0px;
-	 	}
-	 }
+		padding: 80px 0px;
+	}
+	@media (max-width: 992px) {
+		.adventages: {padding: 50px 0px;}
+	}
+	@media (max-width:767px ) {
+		.adventages {
+			padding: 30px 0px;
+		}
+	}
 	.adventages__container{}
 	.adventages__header{
 		margin: 0px 0px 50px 0px;
+		text-align: center;
 	}
-	 @media (max-width:767px ) {
-	 	.adventages__header {
-	 		margin: 0px 0px 25px 0px;
-	 	}
-	 }
+	@media (max-width:767px ) {
+		.adventages__header {
+			margin: 0px 0px 25px 0px;
+		}
+	}
 	.adventages__body{
 		display: flex;
 		flex-wrap: wrap;
@@ -403,4 +407,76 @@ body {
 		line-height: 150%;
 	}
 	/*----------------------PRACTICE-------------------*/
-	
+	.practice{
+		padding: 125px 0px 80px 0px;
+	}
+	@media (max-width: 993px) {
+		.practice {
+			padding: 80px 0px 80px 0px;
+		}
+	}
+	@media (max-width: 767px) {
+		.practice {
+			padding: 0px 0px 40px 0px;
+		}
+	}
+	.practice__container{
+
+	}
+	.practice__header{
+		margin: 0px 0px 45px 0px;
+	}
+	.practice__body{
+		margin: 0px -20px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.practice__column {
+		padding: 0px 20px;
+		flex: 0 1 25%;
+	}
+	@media (max-width: 1040px) {
+		.practice__column{
+			flex:  0 1 50%;
+		}
+	}
+	.item-practice{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	.practice__item{
+		background-color: #fff;
+
+	}
+	.item__practice__content {
+		padding: 30px; 
+		flex: 1 1 auto;
+	}
+	.item__practice__link{
+		color: inherit;
+		display: inline-block;
+	}
+	.item-practice__link:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+		}	 {
+			text-decoration: underline;
+		}
+		.item__practice__title{
+			letter-spacing: 0.1px;
+			font-size: 16px;
+			line-height: 150%;
+			font-weight: 700;
+		}
+		.item__practice__title:hover {
+			text-decoration: underline;
+		}
+		.item-practice__text{
+			color: #727272;
+			line-height: 142%;
+		}
+		.item__practice__image{
+			position: relative;
+			display: block;
+			padding: 0px 0px 60% 0px;
+		}
